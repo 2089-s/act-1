@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "title": "task1",
+      "responsible": "Pablo",
+      "description": "lorem impsum",
+      "date": "2019-01-01T23:28:56.782Z",
+      "priority": "bajo"
+    },
+    {
+      "title": "task2",
+      "responsible": "Juan",
+      "description": "lorem impsum",
+      "date": "2019-01-01T23:28:56.782Z", 
+      "priority": "medio"
+    },
+    {
+      "title": "task3",
+      "responsible": "Marcos",
+      "description": "lorem impsum",
+      "date": "2019-01-01T23:28:56.782Z",
+      "priority": "alto"
+    }
+  ]
+}

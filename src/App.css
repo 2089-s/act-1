@@ -1,0 +1,37 @@
+.App {
+/* fallback for old browsers */
+background: #f5af19;  
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #f12711
+, #f5af19); 
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #f12711
+, #f5af19); 
+height: 100vh;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.tarjetas {
+  padding: 0;
+  margin: 15px 5px 0px;
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  float: left;
+}
+ul {
+  margin: 3px 2px 1px;
+  list-style: none;
+  padding: 2px;
+  font-size: 10px;
+}
+.contenedor-2 {
+  float: right;
+  margin: auto;
+  padding: auto;
+  text-decoration: #f12711;
+}
