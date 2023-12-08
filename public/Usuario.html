@@ -1,0 +1,49 @@
+<style>
+    form {
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 40px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    input[type="text"],
+    input[type="submit"],
+    input[type="number"],
+    input[type="email"],
+    input[type="date"],
+    input[type="file"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    input[type="submit"] {
+        background-color:goldenrod;
+        color: white;
+        cursor: pointer;
+    }
+    .elegir {
+        background-color: bisque;
+    }
+    
+    </style>
+    </head>
+    
+    
+    <form action="./Notificar.html" method="">
+    <h2>Registro de Servicio</h2>
+    <input type="text" id="username" name="username" placeholder="Nombre" required>
+    <input type="text" id="username" name="username" placeholder="Servicio" required>
+   Edad:<input type="date" id="username" name="username" required>
+    <input type="number" id="username" name="username" placeholder="Teléfono" required>
+    <input type="email" id="username" name="username" placeholder="Correo" required>
+    <h3>Subir Imagen</h3>
+    <form name="elegir" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" id="image" name="image" accept="image/*">
+
+            <input type="submit" value="Registrar Producto">
+    </form>
+    </body>
+    </html> 
