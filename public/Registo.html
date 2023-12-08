@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <noscript></noscript>
+    <div id="root"></div>
+    <style>
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="text"],
+input[type="submit"],
+input[type="number"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.elegir {
+    background-color: bisque;
+}
+
+</style>
+</head>
+
+
+<form action="./Notificar.html" method="">
+<h2>Registrar Productos</h2>
+<input type="text" id="username" name="username" placeholder="Articulo" required>
+<input type="text" id="username" name="username" placeholder="Descripcción" required>
+<input type="number" id="username" name="username" placeholder="Disponibles" required>
+<input type="number" id="username" name="username" placeholder="Precio" required>
+<h3>Imagen del producto</h3>
+    <form name="elegir" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" id="image" name="image" accept="image/*">
+        <input type="submit" value="Subir y Registrar Producto">
+</form>
+</body>
+</html> 
